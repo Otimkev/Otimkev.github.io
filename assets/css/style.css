@@ -146,8 +146,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  padding: 0;
-  margin: 6px;
+  padding: 5px;
+  margin: 0px;
   max-height: 55px;
 }
 
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: rgba(127, 137, 161, 0.25);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .mobile-nav {
