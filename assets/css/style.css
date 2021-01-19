@@ -118,7 +118,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #4CAF50;
+  background: #fff;
+  box-shadow: #1d1d1f;
+  border-bottom-color: #1d1d1f;
 }
 
 #header.header-transparent {
@@ -126,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: #4CAF50;
+  background: #fff;
   height: 60px;
 }
 
@@ -177,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
   padding: 10px 0 10px 25px;
   transition: 0.3s;
   font-size: 18px;
@@ -204,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
 }
 
